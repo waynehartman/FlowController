@@ -11,6 +11,7 @@
 		B083D3951B4B218000E88AB2 /* WHLinearCarSelectionFlowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B083D3941B4B218000E88AB2 /* WHLinearCarSelectionFlowController.m */; };
 		B083D3981B4B2C4E00E88AB2 /* WHConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B083D3971B4B2C4E00E88AB2 /* WHConfirmationViewController.m */; };
 		B083D39B1B4B4EAA00E88AB2 /* WHActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = B083D39A1B4B4EAA00E88AB2 /* WHActivityView.m */; };
+		B083D39E1B4B52B000E88AB2 /* WHHubSpokeFlowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B083D39D1B4B52B000E88AB2 /* WHHubSpokeFlowController.m */; };
 		B0F78FBA1B4B133A00470DBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F78FB91B4B133A00470DBB /* main.m */; };
 		B0F78FBD1B4B133A00470DBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F78FBC1B4B133A00470DBB /* AppDelegate.m */; };
 		B0F78FC31B4B133A00470DBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0F78FC11B4B133A00470DBB /* Main.storyboard */; };
@@ -29,6 +30,8 @@
 		B083D3971B4B2C4E00E88AB2 /* WHConfirmationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHConfirmationViewController.m; sourceTree = "<group>"; };
 		B083D3991B4B4EAA00E88AB2 /* WHActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHActivityView.h; sourceTree = "<group>"; };
 		B083D39A1B4B4EAA00E88AB2 /* WHActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHActivityView.m; sourceTree = "<group>"; };
+		B083D39C1B4B52B000E88AB2 /* WHHubSpokeFlowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHHubSpokeFlowController.h; sourceTree = "<group>"; };
+		B083D39D1B4B52B000E88AB2 /* WHHubSpokeFlowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHHubSpokeFlowController.m; sourceTree = "<group>"; };
 		B0F78FB41B4B133A00470DBB /* FlowControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F78FB81B4B133A00470DBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0F78FB91B4B133A00470DBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -116,6 +119,8 @@
 				B0F78FDF1B4B136900470DBB /* WHFlowController.m */,
 				B083D3931B4B218000E88AB2 /* WHLinearCarSelectionFlowController.h */,
 				B083D3941B4B218000E88AB2 /* WHLinearCarSelectionFlowController.m */,
+				B083D39C1B4B52B000E88AB2 /* WHHubSpokeFlowController.h */,
+				B083D39D1B4B52B000E88AB2 /* WHHubSpokeFlowController.m */,
 			);
 			path = "Flow Controllers";
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 				B0F78FE01B4B136900470DBB /* WHFlowController.m in Sources */,
 				B083D3921B4B17C700E88AB2 /* WHNetworkController.m in Sources */,
 				B083D39B1B4B4EAA00E88AB2 /* WHActivityView.m in Sources */,
+				B083D39E1B4B52B000E88AB2 /* WHHubSpokeFlowController.m in Sources */,
 				B083D3951B4B218000E88AB2 /* WHLinearCarSelectionFlowController.m in Sources */,
 				B0F78FBD1B4B133A00470DBB /* AppDelegate.m in Sources */,
 				B0F78FE31B4B142E00470DBB /* WHSelectionViewController.m in Sources */,

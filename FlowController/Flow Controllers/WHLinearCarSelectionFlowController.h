@@ -10,6 +10,4 @@
 
 @interface WHLinearCarSelectionFlowController : WHFlowController
 
-@property (nonatomic, strong, readonly) UIViewController *initialViewController;
-
 @end

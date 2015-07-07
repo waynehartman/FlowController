@@ -54,6 +54,8 @@ typedef NS_ENUM(NSInteger, WHConfirmationRow) {
     self.yearLabel.text = year;
     self.makeLabel.text = make;
     self.modelLabel.text = model;
+
+    self.confirmationButton.enabled = self.year && self.make && self.model;
 }
 
 - (NSString *)placeholder {

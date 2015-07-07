@@ -9,10 +9,11 @@
 #import "AppDelegate.h"
 #import "WHLinearCarSelectionFlowController.h"
 #import "WHSelectionViewController.h"
+#import "WHHubSpokeFlowController.h"
 
 @interface AppDelegate ()
 
-@property (nonatomic, strong) WHLinearCarSelectionFlowController *carSelectionFlowController;
+@property (nonatomic, strong) WHFlowController *carSelectionFlowController;
 
 @end
 
@@ -22,7 +23,7 @@
     UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window = window;
 
-    self.carSelectionFlowController = [[WHLinearCarSelectionFlowController alloc] init];
+    self.carSelectionFlowController = [[WHHubSpokeFlowController alloc] init];
 
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:self.carSelectionFlowController.initialViewController];
 

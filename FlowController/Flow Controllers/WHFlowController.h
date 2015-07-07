@@ -12,5 +12,6 @@
 @interface WHFlowController : NSObject
 
 @property (nonatomic, weak) UINavigationController *navController;
+@property (nonatomic, strong, readonly) UIViewController *initialViewController;
 
 @end
