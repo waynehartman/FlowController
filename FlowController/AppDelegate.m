@@ -43,6 +43,7 @@
     UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window = window;
 
+#warning Hey there! If you want to change the flow controller that's used, just change this below line of code to match the flow controller desired.
     self.carSelectionFlowController = [[WHHubSpokeFlowController alloc] init];
 
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:self.carSelectionFlowController.initialViewController];
