@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:FlowController.xcodeproj">
+      location = "self:/Users/wayne/Desktop/TestProjects/FlowController/FlowControllerDemo.xcodeproj">
    </FileRef>
 </Workspace>
